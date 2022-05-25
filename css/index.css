@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+section{ margin: 0 auto; padding-top: 50px; width: 1000px; height: 700px;}
+body{background-color: #707abd;}
+#picSet{ width: 900px; height: 450px; position: relative; margin: 0 auto; overflow: hidden; margin-top: 50px;}
+#picSet img{ position: absolute; top:0; transition: left 1s; width: 900px;}
+h1{text-align: center; font-size: 100px; color: white; margin-top: 90px;}
+/* #prev_btn{width: 30px; margin-left: 280px; margin-top: 10px; position: absolute;}
+#next_btn{width: 30px; margin-left: 350px; margin-top: 10px; position: absolute;} */
+#btn{display: inline-block; position: relative; margin-left: 0;}
+#prev_btn{width: 20px; margin-top: -250px;   position: absolute; }
+#next_btn{width: 20px; margin-top: -250px; margin-left: 980px;  position: absolute; }
